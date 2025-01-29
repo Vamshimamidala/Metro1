@@ -1,0 +1,839 @@
+ 
+.header{
+  
+  padding: 15px 20px;
+}
+.slides{
+  overflow: hidden;
+}
+.metros{
+  padding: 20px 20pxpx;
+  text-align: center;
+}
+.metros img{
+  width: 20%;
+  border-radius: 10px;
+}
+.metros h1{
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 10px solid blue;
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1;  
+}
+.metros p{
+  text-align: center;
+  font-size: larger;
+}
+.card1{
+  padding: 20px 15px;
+  text-align: center;
+
+}
+.card1 img{
+  width: 30%;
+  padding: 30px;
+}
+.card1 h1{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 10px solid blue;
+    border-width: 1px;
+    display: inline-block;
+    line-height: 1;  
+}
+  
+.card1 button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  width: 20%;
+  padding-right: 20px;
+ }
+ 
+ .card1 button:disabled {
+  pointer-events: none;
+ }
+ 
+.card1 button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ .card1 button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+ .train{
+  margin: 0;
+  height: 100vh;
+  background-image:  url(./Metro/Images/station.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 30px 10px;
+  overflow: hidden;
+  text-align: center;
+ }
+ .train h2{
+  font-size: larger;
+  color: rgb(211, 24, 24);
+  padding: 30px;
+  text-align: center;
+ }
+ .train h5{
+  font-size: larger;
+  color: rgb(97, 7, 241);
+  text-align: center;
+ }
+ .map img{
+  width: 99%;
+ }
+ .about{
+  padding: 40px 10px;
+  background-color: blue;
+ }
+ .about h1{
+  font-size: larger;
+  text-align: center;
+  border-bottom: 1px solid rgb(235, 235, 247);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1;  
+  color: white;
+  padding: 20px;
+ }
+ .about h3{
+   font-size: medium;
+   color: white;
+   
+ }
+ .about h4{
+  font-size: medium;
+  color: white;
+  padding: 30px;
+ }
+ .footer{
+  background-color: black;
+  text-align: right;
+  color: white;
+  font-size: medium;
+ }
+ .footer h5{
+  text-align: left;
+ }
+ .footer button{
+   width: 5%;
+ }
+ .footer img{
+  width: 10%;
+ }
+ .view{
+  margin: 0;
+  height: 50vh;
+  background-image:  url(./Metro/Images/machine.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 30px 10px;
+  overflow: hidden;
+  color: white;
+ }
+ .fare{
+ background-color: white;
+ }
+ .fare h1{
+  font-size: larger;
+  border-bottom: 1px solid rgb(61, 61, 184);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1;  
+  color: black;
+  padding: 20px;
+ }
+ .fare h2{
+  font-size: medium;
+ }
+ .fare h3{
+  font-size: medium;
+ }
+ .smart h1{
+  font-size: larger;
+  border-bottom: 1px solid rgb(61, 61, 184);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1;  
+  color: black;
+  padding: 20px;
+ }
+ .smart p{
+  font-size: medium;
+ }
+ .may{
+  padding: 10px 15px;
+  border: 10px solid rgb(248, 248, 255);
+ }
+ .may p{
+  font-size: large;
+  color: black;
+ }
+.may:hover{
+  color: #fff;
+  background-color: #e7e2e2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.single h1{
+  font-size: medium;
+  border-bottom: 1px solid rgb(61, 61, 184);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1; 
+}
+.single h3{
+  font-size: medium;
+}
+.wallet h2{
+  font-size: medium;
+  border-bottom: 1px solid rgb(61, 61, 184);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1; 
+}
+.wallet h4{
+  font-size: medium;
+}
+ 
+.rail h1{
+  font-size: larger;
+}
+.rail ul li{
+  list-style: none;
+  padding-left: 29px;
+    color: #797878;
+    margin-bottom: 10px;
+    background: url(https://www.ltmetro.com/wp-content/themes/ltmetro/assets/img/list_style_bg.png) no-repeat 0px 3px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.classic{
+  margin: 0;
+  height: 40vh;
+  background-image:  url(./Metro/Images/classsic_card.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 30px 10px;
+  overflow: hidden;
+  text-align: right;
+}
+.hmr{
+  margin: 0;
+  height: 75vh;
+  background-image:  url(./Metro/Images/station.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 30px 10px;
+  border-radius: 20px;
+}
+.hmr h1{
+  padding: 20px;
+   color: rgb(212, 21, 21);
+    align-items: center;
+    font-size:150%
+}
+.city{
+  padding:10px 10px
+}
+.city h1{
+  font-size: large;
+}
+
+.city h1 span {
+  border-bottom: 1px solid rgb(61, 61, 184);
+  padding: 20px;
+  border-width: 3px;
+  display: inline-block;
+  line-height: 1; 
+}
+.city p{
+  font-size: medium;
+  text-align: center;
+  color: gray;
+}
+.public{
+  padding: 10px 10px;
+}
+.public ul li{
+  list-style: none;
+  padding-left: 29px;
+  color: #797878;
+  margin-bottom: 10px;
+  background: url(https://www.ltmetro.com/wp-content/themes/ltmetro/assets/img/list_style_bg.png) no-repeat 0px 3px;
+  font-size: 16px;
+  line-height: 24px;
+}
+ 
+.public button {
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  padding: 1em 2.5em 1em 2.5em;
+  border: none;
+  background: #ffafaf;
+  transition: all 0.1s linear;
+  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+ }
+ 
+ .public button:active {
+  transform: scale(0.95);
+ }
+ 
+ button span {
+  color: #464646;
+ }
+ 
+ .public button .border {
+  position: absolute;
+  border: 0.15em solid #cf1313;
+  transition: all 0.3s 0.08s linear;
+  top: 50%;
+  left: 50%;
+  width: 9em;
+  height: 3em;
+  transform: translate(-50%, -50%);
+ }
+ 
+ .public button:hover .border {
+  display: block;
+  width: 9.9em;
+  height: 3.7em;
+ }
+ 
+ .public .full-rounded {
+  border-radius: 2em;
+ }
+ .team{
+  padding: 20px 10px;
+ }
+ .team ul li{
+  list-style: none;
+  padding-left: 29px;
+  color: #797878;
+  margin-bottom: 10px;
+  background: url(https://www.ltmetro.com/wp-content/themes/ltmetro/assets/img/list_style_bg.png) no-repeat 0px 3px;
+  font-size: 16px;
+  line-height: 24px;
+ }
+ .kero{
+  padding: 20px 20px;
+ }
+ .kero img{
+  width: 30%;
+ }
+ .kero p{
+  padding: 20px;
+  font-size: larger;
+  color: gray;
+ }
+   
+.kero button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+ .kero button:disabled {
+  pointer-events: none;
+ }
+ 
+ .kero button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ .kero button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+.home{
+  margin: 0;
+  height: 80vh;
+  background-image:  url(./Metro/Images/key.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 30px 10px;
+  overflow: hidden;
+}
+.qr1{
+  padding:15px 10px;
+  text-align: center;
+}
+.qr1 img{
+  width: 40%;
+  text-align: center;
+}
+.selected{
+  padding: 20px 10px;
+  background-color: blue;
+  border-radius: 20px;
+   
+}
+.selected select{
+  border: 2px solid blue;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.selected {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3963cd;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.get-details-btn {
+  background-color: #3963cd;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-details-btn:hover {
+  background-color: #2d4fa3;
+}
+
+.get-details-btn:focus {
+  outline: none;
+}
+
+.station-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.station-dropdown:focus {
+  border-color: #3963cd;
+  box-shadow: 0 0 5px rgba(57, 99, 205, 0.5);
+}
+/* General Container */
+.about-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Header Section */
+.hmr-section h1, .hmr-section h2 {
+  text-align: center;
+  color: #3963cd;
+}
+
+.hmr-section h2 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* City Section */
+.city-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.city-section h1 {
+  font-size: 32px;
+  color: #3963cd;
+  margin-bottom: 20px;
+}
+
+.city-section span {
+  font-weight: bold;
+}
+
+/* Public Section */
+.public-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.public-section h1 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.public-section img.metro-logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.public-section ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.learn-more-btn {
+  background-color: #3963cd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learn-more-btn:hover {
+  background-color: #2d4fa3;
+}
+
+/* Team Section */
+.team-section h5 {
+  font-size: 24px;
+  color: #3963cd;
+  margin-bottom: 20px;
+}
+
+.team-section ul {
+  list-style-type: none;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+/* Keolis Section */
+.kero-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.kero-section img.keolis-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.kero-section button.learn-more-btn {
+  margin-top: 20px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* General Container */
+.view-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+
+/* Ticketing Header */
+.ticketing-header h1 {
+  text-align: center;
+  color: #3963cd;
+}
+
+.ticketing-header h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+/* Fare Information Section */
+.fare-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.fare-info h2 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.fare-info p {
+  color: #555;
+  font-size: 18px;
+}
+
+.fare-btn {
+  background-color: #3963cd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.fare-btn:hover {
+  background-color: #2d4fa3;
+}
+
+/* Smart Tickets Section */
+.smart-tickets {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.smart-tickets h2 {
+  color: #3963cd;
+  text-align: center;
+  font-size: 28px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.ticket-card {
+  width: 30%;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}
+
+.ticket-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ticket-card p {
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Single Journey Ticket Section */
+.single-journey {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.single-journey h1 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.single-journey p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Smart Card Section */
+.smart-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.smart-card h2 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.smart-card p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Recharge Info Section */
+.recharge-info {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.recharge-info h2 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.recharge-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Classic Card Section */
+.classic-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.classic-card h2 {
+  color: #3963cd;
+  font-size: 28px;
+}
+
+.recharge-btn {
+  background-color: #3963cd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recharge-btn:hover {
+  background-color: #2d4fa3;
+}
+.selected, .metros, .card1, .train, .about {
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.selected .form-label, .metros h1 {
+  color: #3963CD;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.get-details-btn {
+  background-color: #3963CD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.get-details-btn:hover {
+  background-color: #697FE0;
+}
+
+.footer {
+  background-color: #79db09;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer img {
+  max-width: 100%;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-footer button {
+  background-color: #3963CD;
+  color: white;
+}
+.img-fluids img{
+  width: 100%;
+}
